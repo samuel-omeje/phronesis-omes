@@ -1,0 +1,8 @@
+{
+  "project": "Phronesis Omes corporate website",
+  "version": "1.0.0",
+  "stack": ["HTML5", "CSS3", "Vanilla JavaScript", "JSON", "SVG"],
+  "pages": ["index.html", "about.html", "services.html", "projects.html", "contact.html"],
+  "runtime": "Static files; no framework, build tool, database, authentication or proprietary runtime required.",
+  "canonicalDomainPlaceholder": "https://samuel-omeje.github.io/phronesis-omes-website"
+}

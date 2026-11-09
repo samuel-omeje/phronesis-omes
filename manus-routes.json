@@ -1,0 +1,24 @@
+{
+  "routes": [
+    {
+      "path": "/",
+      "title": "Home"
+    },
+    {
+      "path": "/about.html",
+      "title": "About Us"
+    },
+    {
+      "path": "/services.html",
+      "title": "Our Services"
+    },
+    {
+      "path": "/projects.html",
+      "title": "Projects"
+    },
+    {
+      "path": "/contact.html",
+      "title": "Contact Us"
+    }
+  ]
+}
