@@ -1,0 +1,52 @@
+[
+  {
+    "id": "concept-interior-01",
+    "title": "Contemporary Living Space",
+    "category": "interior-exterior",
+    "location": "Illustrative concept",
+    "description": "A visual reference for a warm, contemporary residential interior.",
+    "image": "assets/images/interior-concept.svg",
+    "status": "Illustrative concept",
+    "isIllustrative": true
+  },
+  {
+    "id": "concept-build-01",
+    "title": "Building & Renovation Work",
+    "category": "construction-renovation",
+    "location": "Illustrative concept",
+    "description": "A visual reference for construction and renovation capabilities.",
+    "image": "assets/images/construction-concept.svg",
+    "status": "Illustrative concept",
+    "isIllustrative": true
+  },
+  {
+    "id": "concept-furniture-01",
+    "title": "Modern Furniture Detail",
+    "category": "furniture-woodwork",
+    "location": "Illustrative concept",
+    "description": "A visual reference for custom furniture and woodwork.",
+    "image": "assets/images/furniture-concept.svg",
+    "status": "Illustrative concept",
+    "isIllustrative": true
+  },
+  {
+    "id": "concept-technical-01",
+    "title": "Technical Installation",
+    "category": "technical-installation",
+    "location": "Illustrative concept",
+    "description": "A visual reference for technical installation services.",
+    "image": "assets/images/technical-concept.svg",
+    "status": "Illustrative concept",
+    "isIllustrative": true
+  },
+  {
+    "id": "concept-event-01",
+    "title": "Event & Stage Environment",
+    "category": "events-stage",
+    "location": "Illustrative concept",
+    "description": "A visual reference for event decoration and stage design.",
+    "image": "assets/images/events-concept.svg",
+    "status": "Illustrative concept",
+    "isIllustrative": true
+  }
+]

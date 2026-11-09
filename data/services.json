@@ -1,0 +1,83 @@
+[
+  {
+    "id": "interior-exterior",
+    "number": "01",
+    "title": "Interior & Exterior Design",
+    "shortDescription": "Thoughtful spaces that balance beauty, comfort and function.",
+    "description": "Creative and functional design solutions for homes, offices and commercial environments, from space planning to finishing and redesign.",
+    "items": [
+      "Residential interior design",
+      "Office and commercial space design",
+      "Exterior design and finishing",
+      "Space planning and optimisation",
+      "Redesigning, remodelling and styling"
+    ],
+    "image": "assets/images/interior-concept.svg",
+    "imageLabel": "Illustrative concept image — not a completed Phronesis Omes project."
+  },
+  {
+    "id": "construction-renovation",
+    "number": "02",
+    "title": "Construction & Renovation",
+    "shortDescription": "Practical building solutions, careful execution and quality finishing.",
+    "description": "Construction, renovation and property improvement services for residential and commercial projects.",
+    "items": [
+      "Building construction",
+      "Pre-construction services",
+      "Property renovation",
+      "Tiling and flooring",
+      "Painting, screeding and finishing",
+      "General building works and repairs"
+    ],
+    "image": "assets/images/construction-concept.svg",
+    "imageLabel": "Illustrative concept image — not a completed Phronesis Omes project."
+  },
+  {
+    "id": "furniture-woodwork",
+    "number": "03",
+    "title": "Furniture & Woodwork",
+    "shortDescription": "Made-to-purpose furniture, fittings and woodwork solutions.",
+    "description": "Furniture and woodwork services combining function, durability and considered design.",
+    "items": [
+      "Custom furniture design",
+      "Furniture production and fabrication",
+      "Furniture installation",
+      "Furniture repairs and restoration",
+      "Cabinetry, woodwork and fittings"
+    ],
+    "image": "assets/images/furniture-concept.svg",
+    "imageLabel": "Illustrative concept image — not a completed Phronesis Omes project."
+  },
+  {
+    "id": "technical-installation",
+    "number": "04",
+    "title": "Technical & Installation Services",
+    "shortDescription": "Essential installations, repairs and maintenance for everyday spaces.",
+    "description": "Technical support for residential and commercial properties, including installations, repairs and general maintenance.",
+    "items": [
+      "Plumbing installations and repairs",
+      "Electrical installations and repairs",
+      "Equipment installation",
+      "General technical maintenance",
+      "Property maintenance support"
+    ],
+    "image": "assets/images/technical-concept.svg",
+    "imageLabel": "Illustrative concept image — not a completed Phronesis Omes project."
+  },
+  {
+    "id": "events-stage",
+    "number": "05",
+    "title": "Events & Stage Design",
+    "shortDescription": "Distinctive event environments, stages and decorative installations.",
+    "description": "Creative event decoration, stage design and construction for special occasions and event spaces.",
+    "items": [
+      "Event decoration",
+      "Stage design and construction",
+      "Event space styling",
+      "Stage installation and finishing",
+      "Event setup and related design solutions"
+    ],
+    "image": "assets/images/events-concept.svg",
+    "imageLabel": "Illustrative concept image — not a completed Phronesis Omes project."
+  }
+]
