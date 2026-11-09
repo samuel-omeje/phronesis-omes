@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 72" role="img" aria-labelledby="title">
+<title id="title">Phronesis Omes</title>
+<rect width="260" height="72" fill="none"/>
+<path d="M18 48 L43 19 L68 48" fill="none" stroke="#D4A53A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M29 48 V35 H57 V48" fill="none" stroke="#D4A53A" stroke-width="3"/>
+<path d="M39 48 V40 H47 V48" fill="none" stroke="#D4A53A" stroke-width="2"/>
+<text x="82" y="36" fill="#F7F4EE" font-family="Georgia,serif" font-size="25" letter-spacing="1">PHRONESIS</text>
+<text x="84" y="56" fill="#D4A53A" font-family="Arial,sans-serif" font-size="12" letter-spacing="4">OMES</text>
+</svg>
