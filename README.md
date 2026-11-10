@@ -1,6 +1,6 @@
 # Phronesis Omes corporate website
 
-A self-contained, framework-free corporate website for **Phronesis Omes** / **Phronesis Omes Ltd.** The site uses plain HTML5, CSS3, vanilla JavaScript, JSON, local SVG concept artwork and the supplied company logo asset. It is intentionally deployable as static files on any ordinary web host.
+A self-contained, framework-free corporate website for **Phronesis Omes** / **Phronesis Omes Ltd.** The site uses plain HTML5, CSS3, vanilla JavaScript, JSON, local SVG concept artwork and the supplied horizontal gold SVG wordmark. It is intentionally deployable as static files on any ordinary web host.
 
 ## Included pages
 
@@ -31,8 +31,9 @@ Upload the complete folder to any static web host. Preserve the relative paths. 
 
 - `data/company.json` holds editable contact and coverage details.
 - `data/services.json` drives the home service cards and detailed services page.
-- `data/projects.json` drives the project cards and category filters.
-- `assets/images/*.svg` are local illustrative concept plates. They are labelled in their SVG metadata, alt text, captions and cards as illustrative references, not completed company projects.
+- `data/projects.json` drives the completed-project cards, category filters and video/photo references.
+- `assets/media/projects/` contains the company-supplied completed-project photos, optimized video files and poster frames used by the portfolio and selected service cards.
+- `assets/images/*.svg` remain local illustrative concept plates for service categories without supplied project media; they are labelled as illustrative references.
 
 ## Contact form and future integration boundary
 
@@ -56,8 +57,8 @@ There are no external image, font, JavaScript or CSS runtime dependencies. The s
 1. Replace the canonical domain placeholder and sitemap/robots domain before publishing.
 2. Confirm the phone numbers, email address, WhatsApp number and approved office address in `data/company.json`.
 3. Confirm or replace the proposed mission, vision and values copy in `about.html` before treating them as formal corporate statements.
-4. Confirm that `assets/icons/phronesis-omes-logo.png` is the final approved company logo and supply a higher-resolution transparent master if available.
-5. Replace illustrative concept artwork with verified company project photography and case-study copy when supplied; keep labels truthful until then.
+4. Confirm that `assets/icons/phronesis-omes-horizontal-gold.svg` is the final approved company logo and supply any alternate light/dark variants if needed.
+5. Confirm the client names, exact locations, dates, captions and permission/licence terms for the supplied completed-project media before publishing case-study details.
 6. Connect and test `POST /api/v1/enquiries` only if stored enquiries or email notifications are required.
 7. Add approved social URLs and a verified map embed only when supplied.
 
@@ -66,13 +67,14 @@ There are no external image, font, JavaScript or CSS runtime dependencies. The s
 Validated on 2026-11-09 using a local Python HTTP server and static inspection:
 
 - All five HTML pages present and returned over HTTP 200.
-- All JSON files parsed successfully; five services and five illustrative projects render from JSON.
+- All JSON files parsed successfully; five services and five company-supplied completed projects render from JSON.
 - Mobile navigation has `aria-expanded`, toggles open/closed state, and closes after link selection.
 - Project filters are generated from service JSON, use `aria-pressed`, and render all/category-specific cards.
 - Telephone, email and WhatsApp links are generated from `data/company.json`; phone links are clickable `tel:` URLs.
 - Contact form uses native required-field/email validation, shows a live status message, and opens a pre-filled WhatsApp handoff when no endpoint is configured.
-- Every portfolio card and local concept image is explicitly labelled as illustrative; no completed company project claims were added.
+- Supplied portfolio cards are labelled as completed projects with client/location details withheld; remaining concept artwork is explicitly labelled as illustrative.
+- Project video cards use accessible native controls, poster frames, lazy metadata loading and local MP4 sources; representative supplied media files were checked with `ffprobe`.
 - `sitemap.xml`, `robots.txt` and canonical placeholders are included.
-- No remote Unsplash URLs, framework imports, package manifests or secrets remain in the source bundle.
+- No remote Unsplash URLs, framework imports, package manifests or secrets remain in the source bundle; project media is local and company-supplied.
 
 A real browser QA pass should still be performed on the final deployed domain, especially for the WhatsApp handoff, canonical URLs, final supplied logo, and any future API endpoint.
